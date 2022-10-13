@@ -8,11 +8,14 @@
 
 ## Installation
 ```bash
-apt-get update && apt-get upgrade
-apt-get install git python
+pkg update && pkg upgrade 
+pkg install git
+pkg install python python2 
+pkg install wget
 git clone https://github.com/Gameye98/vbug
 cd vbug
-python vbug.py
+ls
+python2 vbug.py
 ```
 
 ## Requirements
